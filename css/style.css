@@ -1,0 +1,117 @@
+.poke {
+    width: 70%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 14px 10px 14px 0 rgb(0 0 0 / 30%) inset, -6px -6px 10px 0 rgb(0 0 0 / 47%) inset;
+}
+.intern {
+    width: 90%;
+    height: 44vh;
+    overflow-y: auto;
+    margin: 25px;
+    background-color: #e9e9e9;
+    padding-left: 10px;
+}
+
+#sprite, #spriteBack, #spriteShiny,  #spriteBackShiny {
+    scale:1.5;
+  }
+
+.typesUm,.typesDois{
+    scale: 0.5;
+}
+.imgContainer{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 45px;
+    justify-content: space-evenly;
+}
+.types{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.display{
+    width: 50vh;
+    height:75vh;
+    background-color: #504f4f;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(115deg, #5a5a5a 0%, #303030 74%);
+}
+.types p{
+    visibility: none;
+}
+.basePokemon{
+    visibility: none;
+    display: flex;
+    font-size: 20px;
+}
+.divNamePokemon{
+    font-size: 22px;
+    color: #a9a3a3;
+    font-weight: bold;
+}
+.inputNbutton{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.inputNbutton button{
+    background-image: linear-gradient(90deg, #f54248 0%, #FFFFFF 74%);
+    border-radius: 8px;
+}
+.buttons{
+    display: grid;
+    align-self: center;
+    flex-direction: row;
+    width: 65%;
+    justify-content: end;
+}
+.buttonHorizontal{
+    width: 20px;
+    height: 90px;
+    background-color: aqua;
+    border-radius: 15px;
+    position: absolute;
+    rotate: 90deg;
+    border: none;
+    background-image: linear-gradient(45deg, #00cae5 0%, #008597 74%);
+}
+.buttonVertical{
+    width: 20px;
+    height: 90px;
+    background-color: aqua;
+    border-radius: 15px;
+    position: absolute;
+    border: none;
+    background-image: linear-gradient(45deg, #00cae5 0%, #008597 74%);
+}
+.dot {
+    height: 90px;
+    width: 90px;
+    background-color: rgb(6, 138, 76);
+    border-radius: 50%;
+    display: inline-block;
+    background-image: linear-gradient(90deg, #048946 0%, #076928 74%);
+  }
+  .saidaSom{
+    width: 55px;
+    height: 5px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+  }

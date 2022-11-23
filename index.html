@@ -1,0 +1,66 @@
+<!--CODED BY: Jonathan Lopes Justino de Souza UFV-Florestal-->
+<!DOCTYPE html>
+<html height="100%" lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widrth, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="poke">
+                <div class="display">
+                    <hr class="saidaSom">
+                    <div class="intern">
+                        <div class="inputNbutton">
+                            <input  placeholder="PokePesquisa" name="pokedex" id="pokedex" required>
+                            <button onClick="resposta()"> Pesquisar </button>
+                        </div>
+                        <div class="imgContainer">
+                            <img src ="" id="sprite"></img>
+                            <img src ="" id="spriteBack"></img>
+                            <img src ="" id="spriteShiny"></img>
+                            <img src ="" id="spriteBackShiny"></img>
+                        </div>
+                        <div id ="divNamePokemon">                          
+                            <h3 style="border-bottom: 1px solid black;
+                            width: 80%;" name= "namePokemon" id="namePokemon"></h3> 
+                        </div>
+                        <div class="types" name ="types" id="types">
+                            <p id ='baseTextdois'><strong> Type: </strong></p>
+                            <img src="" class="typesUm" id= "typesUm">
+                            <img src="" class="typesDois" id= "typesDois">
+                        </div>
+                        <div id="basePokemon" class="basePokemon">
+                            <p id ='baseText'><strong><span> Base Stats: </span> </strong></p>
+                            <p class = "division" id ="hp"></p>
+                            <p class = "division" id ="atk"></pid></p>
+                            <p class = "division" id ="def"></p></p>
+                            <p class = "division" id ="spatk"></p></p>
+                            <p class = "division" id ="spdef"></p></p>
+                            <p class = "division" id ="spd"></p></p>              
+                        </div>
+                        <div id="hability" class="hability">
+                            <p id ='baseText'><strong> Abilitys </strong></p>
+                            <p id="ability1"></p> 
+                            <p id ="ability2"></p>
+                            <p id ="ability3"></p></p>
+                            <p id ="ability4"></p></p>       
+                        </div>
+                        <span style="font-weight: bold">Moves</span>
+                        <main></main>
+                    </div>
+                    <div class="buttons">
+                        <hr class="buttonHorizontal">
+                        <hr class="buttonVertical"> 
+                        <span class="dot"></span>
+                    </div>
+                    
+            </div>
+            </div>
+        </div>
+        <script src="./script/script.js"></script>
+    </body>
+</html>
